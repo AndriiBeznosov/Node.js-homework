@@ -16,9 +16,8 @@ https://monosnap.com/file/7R14lBP5z89dmYRStx3PF2slR6hfnD
 # Удаляем контакт
 
 node index.js --action remove --id=3
-https://monosnap.com/file/bItgKIPxcWcZ4YvzfHlogivVBRxMSS
+https://monosnap.com/file/bItgKIPxcWcZ4YvzfHlogivVBRxMSS<br/>
 
-==============================================================
 ✅ Шаг 1<br/>
 Инициализируй npm в проекте <br/>
 В корне проекта создай файл index.js <br/>
