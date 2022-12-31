@@ -114,7 +114,7 @@ break;
 }
 }
 
-invokeAction(argv);
+invokeAction(argv); <br/>
 ✅ Шаг 5
 Запусти команды в терминале и сделай отдельный скриншот результата выполнения каждой команды.
 
@@ -132,7 +132,7 @@ node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-2
 
 # Удаляем контакт
 
-node index.js --action remove --id=3
+node index.js --action remove --id=3 <br/>
 ✅ Шаг 6 - Сдача домашнего задания
 Скриншоты выполнения команд, можно залить на любой бесплатный облачный сервис хранения картинок (Пример: monosnap, imgbb.com) и соответствующие ссылки необходимо добавить в файл README.md. Создайте этот файл в корне проекта.
 
