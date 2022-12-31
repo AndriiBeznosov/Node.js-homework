@@ -17,6 +17,7 @@ https://monosnap.com/file/7R14lBP5z89dmYRStx3PF2slR6hfnD
 
 node index.js --action remove --id=3
 https://monosnap.com/file/bItgKIPxcWcZ4YvzfHlogivVBRxMSS
+
 ==============================================================
 ✅ Шаг 1<br/>
 Инициализируй npm в проекте <br/>
