@@ -6,7 +6,7 @@ https://monosnap.com/file/FqO2sf2FZ5ZCJ7jjlHfy4Iq3w0bQG8
 # Получаем контакт по id
 
 node index.js --action get --id 5<br/>
-https://monosnap.com/file/gpwGpum5TEjdtGVy9bk6Az5EmpwHmj
+https://monosnap.com/file/aPQMELui1wphMyO43HesQslea7DDcb
 
 # Добавялем контакт
 
