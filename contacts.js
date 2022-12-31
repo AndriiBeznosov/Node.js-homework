@@ -22,7 +22,7 @@ async function listContacts() {
 
 async function getContactById(contactId) {
   const db = await readDb();
-  const contact = db.filter((item) => item.id === contactId);
+  const contact = db.find((item) => item.id === contactId);
   return contact;
 }
 
