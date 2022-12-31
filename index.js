@@ -33,10 +33,19 @@ async function invokeAction({ action, id, name, email, phone }) {
 
     case "add":
       await addContact(name, email, phone);
+      console.log(
+        `New contact added to list! name: ${name}, email: ${email}, phone: ${phone}`,
+      );
+      const listContact = await listContacts();
+      console.table(listContact);
+
       break;
 
     case "remove":
       await removeContact(id);
+      console.log(`Deleted contact with ${id}`);
+      const newListContact = await listContacts();
+      console.table(newListContact);
       break;
 
     default:

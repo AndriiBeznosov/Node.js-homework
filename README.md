@@ -1,5 +1,23 @@
-# Node.js-homework
+# Получаем и выводим весь список контактов в виде таблицы (console.table)
 
+node index.js --action list<br/>
+https://monosnap.com/file/FqO2sf2FZ5ZCJ7jjlHfy4Iq3w0bQG8
+
+# Получаем контакт по id
+
+node index.js --action get --id 5<br/>
+https://monosnap.com/file/gpwGpum5TEjdtGVy9bk6Az5EmpwHmj
+
+# Добавялем контакт
+
+node index.js --action add --name Mango --email mango@gmail.com --phone 322-22-22
+https://monosnap.com/file/7R14lBP5z89dmYRStx3PF2slR6hfnD
+
+# Удаляем контакт
+
+node index.js --action remove --id=3
+https://monosnap.com/file/bItgKIPxcWcZ4YvzfHlogivVBRxMSS
+==============================================================
 ✅ Шаг 1<br/>
 Инициализируй npm в проекте <br/>
 В корне проекта создай файл index.js <br/>
@@ -139,12 +157,3 @@ node index.js --action remove --id=3 <br/>
 
 ✅ Шаг 6 - Сдача домашнего задания <br/>
 Скриншоты выполнения команд, можно залить на любой бесплатный облачный сервис хранения картинок (Пример: monosnap, imgbb.com) и соответствующие ссылки необходимо добавить в файл README.md. Создайте этот файл в корне проекта.<br/>
-
-Критерии приема<br/>
-Создан репозиторий с домашним заданием — CLI приложение<br/>
-Код соответствует техническому заданию проекта<br/>
-При выполнении кода не возникает необработанных ошибок<br/>
-Название переменных, свойств и методов начинается со строчной буквы и записываются в нотации CamelCase. Используются английские существительные<br/>
-Название функции или метода содержит глагол<br/>
-В коде нет закомментированных участков кода<br/>
-Проект корректно работает в актуальной LTS-версии Node<br/>
